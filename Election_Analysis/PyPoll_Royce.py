@@ -3,10 +3,10 @@ import csv
 import os
 
 # Assign a variable to load a file from a path.
-file_to_load = os.path.join("Resources", "election_results.csv")
+file_to_load = os.path.join("Desktop/Election_Analysis/Resources/election_results.csv")
 
 # Assign a variable to save the file to a path.
-file_to_save = os.path.join("Election_Analysis", "election_results.txt")
+file_to_save = os.path.join("Desktop/Election_Analysis/Resources/election_results.txt")
 
 # Initialize a total vote counter.
 total_votes = 0
@@ -69,7 +69,7 @@ with open(file_to_save, "w") as txt_file:
         votes = candidate_votes[candidate_name]
         vote_percentage = float(votes) / float(total_votes) * 100
         candidate_results = (
-            f"{candidate_name}: {vote_percentage:.1f}% ({votes:.})\n")
+            f"{candidate_name}: {vote_percentage:.1f}% ({votes:.1f})\n")
         # Print each candidate's voter count and percentage to the terminal.
         print(candidate_results)
         # Save the candidate results to out text file.
