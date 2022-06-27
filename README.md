@@ -1,5 +1,5 @@
-# Election Analysis
-
+# Congressional Election Analysis
+:+1:
 ## Project Overview
 A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local congressional election.
 
@@ -15,9 +15,29 @@ Data Source: election_results.csv
 Software: Python 3.9., Visual Studio Code, 1.67.
 
 ## Summary
-The analysis of the election show that there were 369,712 votes cast in the election.
-The candidates were candidate 1 Charles Casper Stockham. Candidate 2 Diana DeGette and candidate 3 Raymon Anthony Doane. The candidate results were candidate 1 received 23% of the votes and 85,213 votes. Candidate 2 received 73.8% of the votes and 272,892 votes. Candidate 3 received 3.1% of the votes and 11,606 votes. The winner of the election was candidate 2, Diana DeGette, who received 73.8% of the vote and 272,892 votes.
   
-## Challenge Overview
+## Overview of Election Audit
+The election commission has requested some additional data to complete the audit:
 
-## Challenge Summary
+* The voter turnout for each county.
+* The percentage of votes from each county out of the total count.
+* The county with the highest turnout.
+
+## Election Audit Results
+* The analysis of the election shows that there were 369,711 total votes cast in the three county precinct.
+
+  - **Denver County** had the largest number of votes with **306,055** which equates to ***82.8%*** of the total votes.
+  - **Jefferson County** voter turnout produced a total of **38,855** which is equal to ***10.5%*** of the total votes. 
+  - **Arapahoe County** had the least number of votes with **24,801** votes which equals ***6.7%*** of the total votes.
+ 
+* The outcomes for the candidates of this election shows:
+  
+  - Candidate **Diana DeGette** received **272,892** votes and ***73.8%*** of the total votes.
+  - Candidate **Charles Casper Stockham** received **85,21**3 and ***23%*** of the total votes.
+  - Candidate **Raymon Anthony Doane** received **11,606** and ***3.1%*** of the votes.
+
+* The winner of the congressional election:
+  
+  - **Diana DeGette** receives a convincing majority in **272,892** votes for ***73.8%*** of the total votes.
+ 
+## Election Audit Summary
