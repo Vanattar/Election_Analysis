@@ -43,4 +43,5 @@ The report will provide a written analysis of the election audit for the electio
   - **Diana DeGette** receives a convincing majority in **272,892** votes for ***73.8%*** of the total votes.
  
 ## Election Audit Summary
+Python is termed as a secure language. It has broad support and an extensive selection of open source tools. The specific project can be quickly revised to target the specific data fields and calculate the results of another election. Further the script can be reused to analyze data for a variable number of counties, or adapted to other regions, i.e. states. Likewise the script will continue be useful even when the variable is a change in the number of candidates. A future file must continue to include data for the ballot ID’s, the candidates’ names and the names of regions so that the script can be realigned to new data.
 
