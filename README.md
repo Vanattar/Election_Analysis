@@ -9,7 +9,7 @@ A Colorado Board of Elections employee has given you the following tasks to comp
 4. Calculate the percentage of vote each candiate won.
 5. Determine the winner of the election based on popular vote.
 
-## Resources
+### Resources
 Data Source: election_results.csv
 
 Software: Python 3.9., Visual Studio Code, 1.67.
@@ -23,12 +23,14 @@ The election commission has requested some additional data to complete the audit
 * The percentage of votes from each county out of the total count.
 * The county with the highest turnout.
 
+The report will provide a written analysis of the election audit for the election commission, including the new results and a clearly written overview of your methods.
+
 ## Election Audit Results
 * The analysis of the election shows that there were 369,711 total votes cast in the three county precinct.
 
-  - **Denver County** had the largest number of votes with **306,055** which equates to ***82.8%*** of the total votes.
+  - **Denver County** had the **largest number of votes** at **306,055** which equals ***82.8%*** of the total votes.
   - **Jefferson County** voter turnout produced a total of **38,855** which is equal to ***10.5%*** of the total votes. 
-  - **Arapahoe County** had the least number of votes with **24,801** votes which equals ***6.7%*** of the total votes.
+  - **Arapahoe County** had the least number of votes with **24,801** which equals ***6.7%*** of the total votes.
  
 * The outcomes for the candidates of this election shows:
   
@@ -41,3 +43,4 @@ The election commission has requested some additional data to complete the audit
   - **Diana DeGette** receives a convincing majority in **272,892** votes for ***73.8%*** of the total votes.
  
 ## Election Audit Summary
+
